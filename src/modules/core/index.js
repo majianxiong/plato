@@ -1,6 +1,6 @@
 import createStore from './create-store'
 
-export default (context, options = {}, register) => {
+export default (context, options = {}) => {
   // 合并配置项
   options = { scope: 'core', ...options }
 
